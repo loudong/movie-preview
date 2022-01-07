@@ -3,8 +3,8 @@ const http = require('http');
 const { resolve } = require('path');
 let client = new OSS({
     region: 'oss-cn-beijing',
-    accessKeyId: 'LTAI5tA7XA8Z4VsdjYKYnn2L',
-    accessKeySecret: 'lAKf92v0oJWaEJndyfzDDZj1HjIPVL',
+    accessKeyId: '',
+    accessKeySecret: '',
     // bucket: 'trailer-info',
 })
 
