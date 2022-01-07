@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "ali-oss": "^6.16.0",
     "koa": "^2.13.4"
   },
   "devDependencies": {

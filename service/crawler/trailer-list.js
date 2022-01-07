@@ -1,4 +1,4 @@
-
+// 获取预告片列表
 (async () => {
     const puppeteer = require('puppeteer')
     const browser = await puppeteer.launch()
@@ -42,8 +42,9 @@
         return arr
     })
 
-    console.log('res', result);
-
+    // console.log('res', result);
+    process.send(result)
+    browser.close()
     function sleep(time) {
         return new Promise((resolve) => {
             setTimeout(resolve, time)
