@@ -5,7 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "ali-oss": "^6.16.0",
-    "koa": "^2.13.4"
+    "koa": "^2.13.4",
+    "mongoose": "^6.2.1"
   },
   "devDependencies": {
     "puppeteer": "^13.0.1"
